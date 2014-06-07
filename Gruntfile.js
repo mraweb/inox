@@ -4,28 +4,25 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		min: {
 			dist: {
-				src: ['src/assets/js/script.js'],
-				dest: 'src/assets/js/script.min.js'
+				src: ['src/assets/js/scripts.js', 'src/assets/js/jquery.mask.js', 'src/assets/js/jquery.validationEngine-pt.js', 'src/assets/js/jquery.validationEngine.js'],
+				dest: 'src/assets/js/app.js'
 			}
 		},
         cssmin: {
             dist: {
-                src: ['src/assets/css/style.css'],
+                src: ['src/assets/css/style.css', 'src/assets/css/validationEngine.jquery.css'],
                 dest: 'src/assets/css/style.min.css'
             }
         },
-        // uncomment for use less and comment cssmin configs
-		// less: {
-  //           development: {
-  //               options: {
-  //                   yuicompress: true
-  //               },
-  //               files: {
-  //                   "./src/assets/css/all.min.css":
-  //                   ["./src/assets/css/less/main.less"]
-  //               }
-  //           }
-  //       },
+        htmlcompressor: {
+		    compile: {
+		    	files: {
+		        	'index.php': 'telas/index.php',
+		        	'resposta.php': 'telas/resposta.php',
+		        	'analytics.php': 'telas/analytics.php'
+		      	}
+		    }
+		},
 		rsync: {
 			dist: {
 				src: './src/',
@@ -33,15 +30,15 @@ module.exports = function(grunt) {
 				recursive: true,
 				syncDest: true,
 				exclude: ['main.*', 'less']
-			},
-            // uncomment and config
-			deploy: {
-				src: './dist/',
-				dest: '/public_html/testegrunt',
-				host: 'mrawebc@mraweb.com.br',
-				recursive: true,
-				syncDest: true
 			}
+            // uncomment and config
+			// deploy: {
+			// 	src: './dist/',
+			// 	dest: '/public_html/inox',
+			// 	host: 'mrawebc@mraweb.com.br',
+			// 	recursive: true,
+			// 	syncDest: true
+			// }
 		}
 	};
 	grunt.initConfig(gruntConfig);
@@ -55,6 +52,8 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-yui-compressor');
 	grunt.loadNpmTasks('grunt-rsync');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-htmlcompressor');
     // uncomment for use less
 	// grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.registerTask('default', tasks);

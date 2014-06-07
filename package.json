@@ -1,11 +1,11 @@
 {
-  "name": "testegrunt",
+  "name": "inox",
   "version": "0.0.1",
-  "description": "Site Institucional",
-  "homepage": "http://www.dominio.com.br",
+  "description": "Site Inox Fantasia",
+  "homepage": "http://www.inoxfantasia.com.br",
   "repository": {
     "type": "git",
-    "url": "http://github.com/mraweb/testegrunt"
+    "url": "http://github.com/mraweb/inox"
   },
   "engines": {
     "node": "0.8.x",
@@ -20,6 +20,8 @@
     "grunt-contrib-less": "~0.6.3"
   },
   "devDependencies": {
-    "grunt-contrib-concat": "^0.4.0"
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.7.1"
   }
 }
