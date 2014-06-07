@@ -23,6 +23,16 @@ module.exports = function(grunt) {
 		      	}
 		    }
 		},
+		imagemin: {                         
+		    dynamic: { 
+		      files: [{
+		        expand: true,
+		        cwd: 'src/assets/img/', 
+		        src: ['**/*.{png,jpg,gif}'], 
+		        dest: 'img/' 
+		      }]
+		    }
+		  },
 		rsync: {
 			dist: {
 				src: './src/',
