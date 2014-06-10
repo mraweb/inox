@@ -4,14 +4,14 @@ module.exports = function(grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		min: {
 			dist: {
-				src: ['src/assets/js/scripts.js', 'src/assets/js/jquery.mask.js', 'src/assets/js/jquery.validationEngine-pt.js', 'src/assets/js/jquery.validationEngine.js'],
-				dest: 'src/assets/js/app.js'
+				src: ['telas/js/scripts.js'],
+				dest: 'js/scripts.js'
 			}
 		},
         cssmin: {
             dist: {
-                src: ['src/assets/css/style.css', 'src/assets/css/validationEngine.jquery.css'],
-                dest: 'src/assets/css/style.min.css'
+                src: ['telas/css/style.css', 'telas/css/validationEngine.jquery.css'],
+                dest: 'css/style.css'
             }
         },
         htmlcompressor: {
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 		    dynamic: { 
 		      files: [{
 		        expand: true,
-		        cwd: 'img/', 
+		        cwd: 'telas/img/', 
 		        src: ['**/*.{png,jpg,gif}'], 
 		        dest: 'img/' 
 		      }]
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 		  },
 		rsync: {
 			dist: {
-				src: './src/',
+				src: './telas/',
 				dest: './dist',
 				recursive: true,
 				syncDest: true,
