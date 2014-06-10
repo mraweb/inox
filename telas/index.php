@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8" />
 <title>Inox Fantasia</title>
-<link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="../src/assets/css/style.css">
 <!--<link rel="stylesheet" type="text/css" href="src/assets/css/style.min.css">-->
 <!--[if ie]>
     <script type="text/javascript" src="src/assets/js/html5shiv.js"></script>
 <![endif]-->
 <?php include "analytics.php"; ?>
 </head>
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class="bg-home">
 <header role="banner">
     <h1><a href="/" title="Inox Fantasia" class="hidetxt">Inox Fantasia</a></h1>
     
@@ -25,59 +25,65 @@
     </nav>
 </header><!-- FINAL HEADER -->
 
-<aside>
-    <p class="h2-home">Fabricando tanques de alta qualidade há três décadas</p>
-</aside>
+<div id="content" role="main">
+    <aside>
+        <p class="h2-home">Fabricando tanques de alta qualidade há três décadas</p>
+    </aside><!-- FINAL ASIDE -->  
 
-<section id="content" role="main">
-    <h2>A sua melhor escolha em<br />
-    <span>Tanques Rodoviários de Aço Inox.</span></h2>
+    <section class="cont-right pdg-thome">
+        <div class="alinha">
+            <h2>A sua melhor escolha em<br />
+            <span class="txt-red">Tanques Rodoviários de Aço Inox.</span></h2>
 
-    <p>Há 30 anos fabricamos tanques rodoviários em aço inox para o transporte de leite e óleo vegetal. Trabalhamos com tecnologia de ponta para assegurar prazos e competir com os melhores preços.</p>
+            <p>Há 30 anos fabricamos tanques rodoviários em aço inox para o transporte de leite e óleo vegetal. Trabalhamos com tecnologia de ponta para assegurar prazos e competir com os melhores preços.</p>
 
-    <h3 class="txt-red">Conheça nossa linha:</h3>
+            <h3 class="txt-red">Conheça nossa linha:</h3>
 
-    <nav role="navigation">
-        <ul>
-            <li><a href="tanques-de-coleta.php" title="Tanques de Coleta">Tanques de Coleta</a></li>
-            <li><a href="tanques-julieta.php" title="Tanques Julieta">Tanques Julieta</a></li>
-            <li><a href="semi-reboque.php" title="Semi Reboque">Semi Reboque</a></li>
-            <li><a href="tanques-bitrem.php" title="Tanques Bitrem">Tanques Bitrem</a></li>
-            <li><a href="tanques-vanderleia.php" title="Tanques Vanderleia">Tanques Vanderleia</a></li>
-            <li><a href="acessorios.php" title="Acessórios">Acessórios</a></li>
-        </ul>
-    </nav>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="tanques-de-coleta.php" title="Tanques de Coleta">Tanques de Coleta</a></li>
+                    <li><a href="tanques-julieta.php" title="Tanques Julieta">Tanques Julieta</a></li>
+                    <li><a href="semi-reboque.php" title="Semi Reboque">Semi Reboque</a></li>
+                    <li><a href="tanques-bitrem.php" title="Tanques Bitrem">Tanques Bitrem</a></li>
+                    <li><a href="tanques-vanderleia.php" title="Tanques Vanderleia">Tanques Vanderleia</a></li>
+                    <li><a href="acessorios.php" title="Acessórios">Acessórios</a></li>
+                </ul>
+            </nav>
+        </div><!-- FINAL ALINHA -->  
 
-    <section class="feature">
-        <h3>Tanques Personalizados</h3>
+        <section class="feature">
+            <div>
+                <h3><a href="tanques-personalizados.php" title="Tanques Personalizados">Tanques Personalizados</a></h3>
 
-        <p>Fabricamos tanques sob medida atendendo às necessidades específicas.</p>
+                <p>Fabricamos tanques sob medida atendendo às necessidades específicas.</p>
+            </div>
 
-        <img src="img/tanque-de-coleta-4000L.jpg" alt="Tanque de Coleta - 4.000 L" />
-    </section>
+            <img src="../img/tanque-de-coleta-4000L.jpg" alt="Tanque de Coleta - 4.000 L" />
+        </section>
 
-    <div class="bnds">
-        <a href="#" title="Confiança em nosso trabalho." class="bt-parc">Confiança em nosso trabalho.<br />
-        <span class="txt-red">Clique e conheça alguns clientes.</span></a>
+        <div class="bnds">
+            <a href="#" title="Confiança em nosso trabalho." class="bt-parc">Confiança em nosso trabalho.<br />
+            <span class="txt-red">Clique e conheça alguns clientes.</span></a>
 
-        <a href="#" title="Financie seu Tanque no BNDS" class="bt-bnds" rel="external">Financie seu Tanque no BNDS</a>
-    </div>
-</section><!-- FINAL CONTENT -->  
+            <a href="#" title="Financie seu Tanque no BNDS" class="bt-bnds hidetxt" rel="external">Financie seu Tanque no BNDS</a>
+        </div>
+    </section><!-- FINAL CONT-RIGHT -->  
+</div><!-- FINAL CONTENT -->  
 
 <footer role="contentinfo">
     <div class="infos">
         <address>
             <div itemscope itemtype="http://schema.org/Organization">
-                <span itemprop="name">INOX FANTASIA - Indústria, Comércio e Serviços LTDA.</span>
+                <span itemprop="name"><strong>INOX FANTASIA</strong> - Indústria, Comércio e Serviços LTDA.</span><br />
 
                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">Rua Cel. Joaquim Marques, 1673 | Distrito Industrial</span>
+                    <span itemprop="streetAddress">Rua Cel. Joaquim Marques, 1673 | Distrito Industrial</span><br />
                     <span itemprop="addressLocality">Batatais | SP</span> | CEP
                     <span itemprop="postalCode">14300-000</span>
                 </div>
             </div>
 
-            <p>©2014 Inox Fantasia. Todos os direitos reservados.</p>
+            <p>&copy;2014 Inox Fantasia. Todos os direitos reservados.</p>
         </address>
 
         <div class="telefone">
@@ -86,12 +92,12 @@
                 <li><span>16</span> 3761.8305</li>
             </ul>
 
-            <a href="" title="JM6" rel="external">JM6</a>
+            <a href="http://www.jm6.ppg.br/" title="JM6" rel="external" class="jm6 hidetxt">JM6</a>
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="src/assets/js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="src/assets/js/scripts.js"></script>
+<script type="text/javascript" src="../src/assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../src/assets/js/scripts.js"></script>
 <!-- <script type="text/javascript" src="src/assets/js/app.js"></script> -->
 </body>
 </html>
