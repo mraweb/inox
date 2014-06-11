@@ -77,7 +77,7 @@ header h1{
 header h1 a{
 	width: 221px;
 	height: 190px;
-	background-image: url(../img/inox-fantasia.jpg);
+	background-image: url(../img/inox-fantasia.png);
 }
 header ul{ float: right; padding: 15px 50px 0 0;}
 header ul li{
@@ -182,6 +182,147 @@ aside .h2-home{
 	margin-top: 10px;
 	background-image: url(../img/bnds.gif);
 }
+
+/* EMPRESA */
+.bg-int{
+	width: 100%;
+	display: table;
+	background: #141212;
+}
+.internas{
+	width: 100%;
+	display: table;
+	background: #FFF url(../img/bgint.jpg) center top no-repeat;
+}
+header .logo{
+	width: 221px;
+	height: 190px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+header .logo a{
+	width: 221px;
+	height: 190px;
+}
+.pdg-home{ padding-top: 55px;}
+.txt-chamada{
+	font-size: 26px;
+	font-family: 'otto', sans-serif;
+	padding-bottom: 50px;
+}
+.cont-right h1{
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.bt-mapa{
+	width: 508px;
+	height: 262px;
+	background-image: url(../img/mapa.jpg);
+}
+.under{ text-decoration: underline;}
+aside img{ padding: 148px 0 0 3px;}
+#mapaTeste{ display: none;}
+.mapaContent{
+	width: 550px;
+  	height: 320px;
+  	display:block;
+  	position: absolute;
+  	left: 30%;
+  	top: 10%;
+  	z-index:999999;
+}
+.window{
+  	width: 550px;
+  	height: 320px;
+  	overflow: hidden;
+  	z-index: 99;
+  	background-color: #FFF;
+  	border: 6px solid #999;
+  	border-radius: 7px;
+  	padding-top: 30px;
+
+}
+.close{
+	width: 82px;
+	height: 23px;
+	position: absolute;
+	right: 5px;
+  	top: 9px;
+	background: url(../img/fechar.png) 0 0 no-repeat;
+	z-index: 999;
+	cursor: pointer;
+}
+#mask{
+	width: 100%;
+	background-color: #000;
+	z-index: 9;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.8;
+}
+
+/* PRODUTOS */
+.submenu{
+	width: 100%;
+	float: left;
+	margin: 220px 0 40px 0;
+}
+.submenu li{ height: 26px;}
+.submenu li a{
+	width: 100%;
+	height: 22px;
+	border-radius: 5px;
+	text-align: center;
+	color: #FFF;
+	font-size: 17px;
+	font-family: 'otto', sans-serif;
+	padding-top: 3px;
+	background-color: #c4161c;
+}
+.submenu li a:hover,
+.submenu li a:focus,
+.submenu li a.ativo{ background-color: #ff262e;}
+aside .h2-prod{
+	font-size: 14px;
+	padding: 10px 0 100px 78px;
+	background: url(../img/selo.jpg) 0 0 no-repeat;
+	line-height: 23px;
+	float: left;
+}
+.box-bread{ padding: 10px 0 10px 0;}
+.cont-right h2{ font-size: 18px; padding-bottom: 25px;}
+.esp-bott{ margin-bottom: 30px;}
+.box-tanques ul{
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+}
+.box-tanques ul li{ float: left; padding: 0 6px 6px 0;}
+.box-tanques ul li a{
+	width: 142px;
+	height: 142px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

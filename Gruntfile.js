@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 		},
         cssmin: {
             dist: {
-                src: ['telas/css/style.css', 'telas/css/validationEngine.jquery.css'],
+                src: ['telas/css/style.css', 'telas/css/colorbox.css', 'telas/css/validationEngine.jquery.css'],
                 dest: 'css/style.css'
             }
         },
@@ -19,7 +19,13 @@ module.exports = function(grunt) {
 		    	files: {
 		        	'index.php': 'telas/index.php',
 		        	'resposta.php': 'telas/resposta.php',
-		        	'analytics.php': 'telas/analytics.php'
+		        	'analytics.php': 'telas/analytics.php',
+		        	'aside.php': 'telas/aside.php',
+		        	'empresa.php': 'telas/empresa.php',
+		        	'footer.php': 'telas/footer.php',
+		        	'header.php': 'telas/header.php',
+		        	'produtos.php': 'telas/produtos.php',
+		        	'tanques-de-coleta.php': 'telas/tanques-de-coleta.php',
 		      	}
 		    }
 		},

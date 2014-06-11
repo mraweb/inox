@@ -1,33 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="utf-8" />
-<title>Inox Fantasia</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!--[if ie]>
-    <script type="text/javascript" src="js/html5shiv.js"></script>
-<![endif]-->
-<?php include "analytics.php"; ?>
-</head>
-<body itemscope itemtype="http://schema.org/WebPage" class="bg-home">
-<header role="banner">
-    <h1><a href="/" title="Inox Fantasia" class="hidetxt">Inox Fantasia</a></h1>
-    
-    <nav role="navigation">
-        <ul>
-            <li><a href="/" title="Home" class="ativo">Home</a></li>
-            <li><a href="empresa.php" title="Empresa">Empresa</a></li>
-            <li><a href="produtos.php" title="Produtos">Produtos</a></li>
-            <li><a href="servicos.php" title="Serviços">Serviços</a></li>
-            <li><a href="contato.php" title="Contato">Contato</a></li>
-        </ul>
-    </nav>
-</header><!-- FINAL HEADER -->
+<?php include "header.php"; ?>
 
 <div id="content" role="main">
-    <aside>
-        <p class="h2-home">Fabricando tanques de alta qualidade há três décadas</p>
-    </aside><!-- FINAL ASIDE -->  
+    <?php include "aside.php"; ?> 
 
     <section class="cont-right pdg-thome">
         <div class="alinha">
@@ -69,33 +43,4 @@
     </section><!-- FINAL CONT-RIGHT -->  
 </div><!-- FINAL CONTENT -->  
 
-<footer role="contentinfo">
-    <div class="infos">
-        <address>
-            <div itemscope itemtype="http://schema.org/Organization">
-                <span itemprop="name"><strong>INOX FANTASIA</strong> - Indústria, Comércio e Serviços LTDA.</span><br />
-
-                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">Rua Cel. Joaquim Marques, 1673 | Distrito Industrial</span><br />
-                    <span itemprop="addressLocality">Batatais | SP</span> | CEP
-                    <span itemprop="postalCode">14300-000</span>
-                </div>
-            </div>
-
-            <p>&copy;2014 Inox Fantasia. Todos os direitos reservados.</p>
-        </address>
-
-        <div class="telefone">
-            <ul>
-                <li><span>16</span> 3761.3908</li>
-                <li><span>16</span> 3761.8305</li>
-            </ul>
-
-            <a href="http://www.jm6.ppg.br/" title="JM6" rel="external" class="jm6 hidetxt">JM6</a>
-        </div>
-    </div>
-</footer>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
-</html>
+<?php include "footer.php"; ?>
