@@ -26,6 +26,13 @@ module.exports = function(grunt) {
 		        	'header.php': 'telas/header.php',
 		        	'produtos.php': 'telas/produtos.php',
 		        	'tanques-de-coleta.php': 'telas/tanques-de-coleta.php',
+		        	'tanques-semi-reboque.php': 'telas/tanques-semi-reboque.php',
+		        	'tanques-vanderleia.php': 'telas/tanques-vanderleia.php',
+		        	'tanques-julieta.php': 'telas/tanques-julieta.php',
+		        	'tanques-bitrem.php': 'telas/tanques-bitrem.php',
+		        	'tanques-personalizados.php': 'telas/tanques-personalizados.php',
+		        	'acessorios.php': 'telas/acessorios.php',
+		        	'servicos.php': 'telas/servicos.php'
 		      	}
 		    }
 		},
