@@ -26,28 +26,10 @@ if($URL == "index.php"){
     echo "Acessórios | Inox Fantasia";
 }elseif($URL == "servicos.php"){
     echo "Serviços | Inox Fantasia";
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
-}elseif($URL == "empresa.php"){
-
+}elseif($URL == "clientes.php"){
+    echo "Clientes | Inox Fantasia";
+}elseif($URL == "contato.php"){
+    echo "Contato | Inox Fantasia";
 }
 ?>
 </title>
