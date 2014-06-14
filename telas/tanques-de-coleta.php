@@ -57,6 +57,9 @@
         </section>
 
         <div class="bnds">
+            <a href="clientes.php" title="Confiança em nosso trabalho." class="bt-parc">Confiança em nosso trabalho.<br />
+            <span class="txt-red">Clique e conheça alguns clientes.</span></a>
+
             <a href="#" title="Financie seu Tanque no BNDS" class="bt-bnds hidetxt" rel="external">Financie seu Tanque no BNDS</a>
         </div>
     </section><!-- FINAL CONT-RIGHT -->  

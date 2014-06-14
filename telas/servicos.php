@@ -20,13 +20,13 @@
             <div>
                 <h3><a href="contato.php" title="Entre em Contato">Entre em Contato</a></h3>
 
-                <p class="under">Conheça toda nossa linha<br />
-                de Tanques Rodoviários.</p>
+                <p class="under"><a href="produtos.php" title="Conheça toda nossa linha de tanques rodoviários">Conheça toda nossa linha<br />
+                de Tanques Rodoviários.</a></p>
             </div>
         </section>
 
         <div class="bnds">
-            <a href="#" title="Confiança em nosso trabalho." class="bt-parc">Confiança em nosso trabalho.<br />
+            <a href="clientes.php" title="Confiança em nosso trabalho." class="bt-parc">Confiança em nosso trabalho.<br />
             <span class="txt-red">Clique e conheça alguns clientes.</span></a>
 
             <a href="#" title="Financie seu Tanque no BNDS" class="bt-bnds hidetxt" rel="external">Financie seu Tanque no BNDS</a>

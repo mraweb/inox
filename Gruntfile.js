@@ -32,7 +32,8 @@ module.exports = function(grunt) {
 		        	'tanques-bitrem.php': 'telas/tanques-bitrem.php',
 		        	'tanques-personalizados.php': 'telas/tanques-personalizados.php',
 		        	'acessorios.php': 'telas/acessorios.php',
-		        	'servicos.php': 'telas/servicos.php'
+		        	'servicos.php': 'telas/servicos.php',
+		        	'clientes.php': 'telas/clientes.php'
 		      	}
 		    }
 		},

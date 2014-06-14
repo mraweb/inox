@@ -149,7 +149,6 @@ aside .h2-home{
 	margin: 20px 50px 0 0;
 }
 .feature h3 a{ color: #FFF;}
-.feature div{ cursor: pointer;}
 .feature p{
 	width: 265px;
 	float: left;
@@ -305,11 +304,31 @@ aside .h2-prod{
 	height: 142px;
 }
 
-
-
-
-
-
+/* CLIENTES */
+.bt-voltar{
+	width: 57px;
+	height: 14px;
+	float: right;
+	margin-top: -25px;
+}
+.bt-voltar a{
+	width: 57px;
+	height: 14px;
+	background-image: url(../img/btvoltar.jpg);
+}
+.clientes{
+	width: 588px;
+	float: left;
+}
+.clientes li{ float: left;}
+.clientes li.centraliza{ margin-left: 172px;}
+aside .h2-prod2{
+	font-size: 14px;
+	padding: 230px 0 100px 78px;
+	background: url(../img/selo.jpg) 0 220px no-repeat;
+	line-height: 23px;
+	float: left;
+}
 
 
 

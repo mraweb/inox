@@ -10,10 +10,4 @@ $(document).ready(function(){
 
     // colorbox
     $(".group1, .group2").colorbox();
-    
-    // pega link e coloca na div toda
-    $(".feature div").click(function(){
-	    window.location = $(this).find("a").attr("href");
-        return false;
-	});
 });

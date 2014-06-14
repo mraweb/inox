@@ -34,4 +34,8 @@
 
         <p class="h2-prod">Fabricando tanques de alta qualidade</p>
     </aside><!-- FINAL ASIDE --> 
+<?php }elseif($URL == "clientes.php"){ ?>
+<aside>
+        <p class="h2-prod2">Fabricando tanques de alta qualidade</p>
+    </aside><!-- FINAL ASIDE --> 
 <?php } ?>

@@ -4,15 +4,21 @@
     <?php include "aside.php"; ?>
 
     <section class="cont-right pdg-home">
-        <p class="txt-chamada">Fabricando tanques de alta qualidade há três décadas.</p>
+        <p class="txt-chamada">Quem confia em nosso trabalho.</p>
 
-        <h1 class="txt-red">Empresa</h1>
+        <h1 class="txt-red">Clientes</h1>
 
-        <p>A Inox Fantasia é formada por profissionais qualificados e com alto conhecimento em tanques rodoviários devido ao tempo que a empresa está inserida no mercado. Com responsabilidade e comprometimento, fabrica tanques em aço inoxidável para o transporte seguro de alimentos como leite e óleo vegetal. Tem sempre como prioridades na fabricação de seus produtos a segurança e conforto de seus clientes, além da qualidade de estocagem que os tanques oferecem.
+        <p class="bt-voltar"><a href="javascript:history.back(-1);" title="Voltar" class="hidetxt">Voltar</a></p>
 
-        <p>A empresa se localiza na cidade de Batatais, região de Ribeirão Preto no estado de São Paulo, um importante pólo industrial relacionado ao mercado do aço inox. Conta com tecnologias que suprem às necessidades de fabricação em projetos personalizados e acessórios que facilitam o trabalho do motorista no seu dia-a-dia. <a href="produtos.php" title="Conheça nossos produtos" class="link txt-red">Conheça nossos produtos</a>.</p>
-
-        <p><a href="#" title="Veja o mapa" class="bt-mapa modal hidetxt">Veja o mapa</a></p>
+        <ul class="clientes">
+            <li><img src="img/aviacao.jpg" alt="Aviação" /></li>
+            <li><img src="img/coopervap.jpg" alt="Coopervap" /></li>
+            <li><img src="img/laticinios-uniao-total.jpg" alt="Laticínios União Total" /></li>
+            <li><img src="img/mococa.jpg" alt="Mococa" /></li>
+            <li><img src="img/transroni.jpg" alt="Transroni" /></li>
+            <li><img src="img/scala.jpg" alt="Scala" /></li>
+            <li class="centraliza"><img src="img/tirolez.jpg" alt="Tirolez" /></li>
+        </ul>
     
         <section class="feature">
             <div>
