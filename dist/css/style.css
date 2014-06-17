@@ -18,7 +18,7 @@ h1, h2, h3, h4{
 	font-family: 'otto', sans-serif;
 }
 a, h1, h2, h3, h4, article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote, label { display: block;}
-a{ text-decoration: none; color: #919191;}
+a{ text-decoration: none; color: #666;}
 a:hover, a:focus{ background-position:left bottom;}
 a.ativo{ background-position:left bottom;}
 a.link{ display:inline;}
@@ -330,20 +330,63 @@ aside .h2-prod2{
 	float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* CONTATO */
+.formulario{
+	width: 400px;
+	float: left;
+	padding-bottom: 100px;
+}
+.formulario li{
+	width: 390px;
+	float: left;
+	padding-bottom: 10px;
+}
+.formulario li label{
+	width: 94px;
+	float: left;
+	text-align: right;
+	color: #c4161c;
+	font-size: 15px;
+	font-family: 'otto', sans-serif;
+	padding: 3px 7px 0 0;
+}
+.formulario li input,
+.formulario li select,
+.formulario li textarea{
+	width: 276px;
+	height: 25px;
+	float: left;
+	border: none;
+	padding: 0 5px;
+	font-size: 15px;
+	font-family: 'otto', sans-serif;
+	background-color: #e8e8e8;
+}
+#tel, #cel, #end{ width: 170px;}
+.formulario li label[for="num"]{ width: 40px;}
+#num{ width: 49px;}
+#cidade{ width: 153px;}
+.formulario li label[for="estado"]{ width: 55px;}
+#estado{ width: 60px;}
+.formulario li textarea{
+	height: 100px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.formulario li span{
+	font-size: 11px;
+	float: left;
+	padding-left: 104px;
+}
+.formulario li button{
+	width: 86px;
+	height: 25px;
+	float: right;
+	color: #FFF;
+	border: none;
+	margin-right: 3px;
+	background-color: #c4161c;
+}
 
 
 /* FOOTER */

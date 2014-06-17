@@ -16,7 +16,7 @@
                 <ul>
                     <li><a href="tanques-de-coleta.php" title="Tanques de Coleta">Tanques de Coleta</a></li>
                     <li><a href="tanques-julieta.php" title="Tanques Julieta">Tanques Julieta</a></li>
-                    <li><a href="semi-reboque.php" title="Semi Reboque">Semi Reboque</a></li>
+                    <li><a href="tanques-semi-reboque.php" title="Semi Reboque">Semi Reboque</a></li>
                     <li><a href="tanques-bitrem.php" title="Tanques Bitrem">Tanques Bitrem</a></li>
                     <li><a href="tanques-vanderleia.php" title="Tanques Vanderleia">Tanques Vanderleia</a></li>
                     <li><a href="acessorios.php" title="Acessórios">Acessórios</a></li>
