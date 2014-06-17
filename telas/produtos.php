@@ -30,12 +30,4 @@
     </section><!-- FINAL CONT-RIGHT -->  
 </div><!-- FINAL CONTENT -->  
 
-<div id="mapaTeste">
-    <div class="mapaContent">
-        <div id="mapa" class="window"></div>
-        <a class="close hidetxt">Fechar</a>
-    </div>
-<div id="mask"></div>
-</div>
-
 <?php include "footer.php"; ?>
