@@ -10,7 +10,7 @@
 
         <p>Preencha o formulário abaixo para solicitar um orçamento ou tirar qualquer dúvida sobre nossos tanques rodoviários. Se preferir, entre em contato pelo e-mail <a href="mailto:inoxfantasia@netsite.com.br" title="E-mail" class="link">inoxfantasia@netsite.com.br</a></p>
 
-        <form action="resposta-contato.php" method="post">
+        <form action="resposta-contato.php" method="post" id="formID">
             <input type="hidden" name="valida" id="valida" />
 
             <ul class="formulario">
@@ -36,7 +36,7 @@
 
                 <li>
                     <label for="cel">Celular:</label>
-                    <input type="text" name="cel" id="cel" class="validate[required]" />
+                    <input type="text" name="cel" id="cel" />
                 </li>
 
                 <li>

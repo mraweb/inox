@@ -33,7 +33,8 @@ module.exports = function(grunt) {
 		        	'tanques-personalizados.php': 'telas/tanques-personalizados.php',
 		        	'acessorios.php': 'telas/acessorios.php',
 		        	'servicos.php': 'telas/servicos.php',
-		        	'clientes.php': 'telas/clientes.php'
+		        	'clientes.php': 'telas/clientes.php',
+		        	'contato.php': 'telas/contato.php'
 		      	}
 		    }
 		},

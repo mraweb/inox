@@ -25,7 +25,8 @@ $(function() {
 		});
 	});
 
-	$('.modal').click(function() {
+	$('.modal, .bt-mapa1').click(function(e) {
+		e.preventDefault();
 		$('#mask').show()
 	});
 
