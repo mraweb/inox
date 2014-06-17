@@ -35,6 +35,7 @@ if($URL == "index.php"){
 </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+<link rel="stylesheet" type="text/css" href="css/validationEngine.jquery.css">
 <!--[if ie]>
     <script type="text/javascript" src="js/html5shiv.js"></script>
 <![endif]-->

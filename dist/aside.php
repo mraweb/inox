@@ -38,4 +38,29 @@
 <aside>
         <p class="h2-prod2">Fabricando tanques de alta qualidade</p>
     </aside><!-- FINAL ASIDE --> 
+<?php }elseif($URL == "contato.php"){ ?>
+<aside>
+        <a href="#" title="Mapa de Localização" class="bt-mapa1 hidetxt">Mapa de Localização</a>
+
+        <div class="tel-aside">
+            <p>
+                <span>16</span> 3761.3908<br />
+                <span>16</span> 3761.8305
+            </p>
+        </div>
+
+        <div class="mail-aside">
+            <p><span>E-mail:</span><br />
+                <a href="mailto:inoxfantasia@netsite.com.br" title="E-mail" class="link">inoxfantasia@netsite.com.br</a></p>
+        </div>
+
+        <div class="localiza-aside">
+            <span>Localização:</span><br />
+            Rua Cel. Joaquim Marques, 1673<br />
+            Distrito Industrial | Batatais | SP<br />
+            CEP: 14.300-000
+        </div>
+        
+        <img src="img/financie-no-bnds.jpg" height="59" width="140" alt="Financia seu Tanque no BNDS" />
+    </aside><!-- FINAL ASIDE --> 
 <?php } ?>

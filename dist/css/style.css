@@ -385,9 +385,53 @@ aside .h2-prod2{
 	color: #FFF;
 	border: none;
 	margin-right: 3px;
+	cursor: pointer;
 	background-color: #c4161c;
 }
+.bt-mapa1{
+	width: 215px;
+	height: 291px;
+	margin: 146px 0 27px 3px;
+	background-image: url(../img/btmapa.jpg);
+}
+.tel-aside{
+	width: 158px;
+	height: 71px;
+	float: left;
+	padding-left: 57px;
+	font-size: 20px;
+	color: #c4161c;
+	font-family: 'otto', sans-serif;
+	background: url(../img/icontel.jpg) 30px 5px no-repeat;
+}
+.tel-aside p{ line-height: 22px;}
+.tel-aside span{ font-size: 16px;}
+.mail-aside{
+	width: 215px;
+	height: 65px;
+	float: left;
+	background: url(../img/iconmail.jpg) 0 0 no-repeat;
+}
+.mail-aside span{
+	padding-left: 26px;
+	font-size: 18px;
+	color: #c4161c;
+	font-family: 'otto', sans-serif;
+}
 
+.localiza-aside{
+	width: 215px;
+	height: 112px;
+	float: left;
+	background: url(../img/iconloca.jpg) 0 0 no-repeat;
+}
+.localiza-aside span{
+	padding-left: 20px;
+	font-size: 18px;
+	color: #c4161c;
+	font-family: 'otto', sans-serif;
+}
+img[alt="Financia seu Tanque no BNDS"]{ padding: 0;}
 
 /* FOOTER */
 footer{
