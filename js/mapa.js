@@ -19,13 +19,14 @@ function initialize() {
 	}
 
 $(function() {
-	$('.modal').click(function() {
+	$('.modal, .bt-mapa1').click(function() {
 		$('#mapaTeste, .close').show(function() {
 			initialize();
 		});
 	});
 
-	$('.modal').click(function() {
+	$('.modal, .bt-mapa1').click(function(e) {
+		e.preventDefault();
 		$('#mask').show()
 	});
 
