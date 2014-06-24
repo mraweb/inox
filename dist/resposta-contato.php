@@ -1,18 +1,18 @@
 <?php
 require_once('phpmailer/PHPMailerAutoload.php');
     $phpmail = new PHPMailer();
-    $phpmail->IsSMTP(); // envia por SMTP
-    $phpmail->Host = "smtp.inoxfantasia.com.br"; // SMTP servers
-    $phpmail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação
-    $phpmail->Username = "envia@inoxfantasia.com.br"; // SMTP username
-    $phpmail->Password = "qawsedrf10*"; // SMTP password
+    $phpmail->IsSMTP();
+    $phpmail->Host = "mail.inoxfantasia.com.br"; 
+    $phpmail->SMTPAuth = true; 
+    $phpmail->Username = "envia@inoxfantasia.com.br"; 
+    $phpmail->Password = "qawsedrf10*"; 
     $phpmail->Port = 587;
         
     $phpmail->IsHTML(true);
     $phpmail->From = "contato@inoxfantasia.com.br";
     $phpmail->FromName = $_POST["nome"];
     
-    $phpmail->AddAddress('teste@inoxfantasia.com.br', 'Inox Fantasia');
+    $phpmail->AddAddress('contato@inoxfantasia.com.br', 'Inox Fantasia');
     $phpmail->AddReplyTo($_POST["email"], $_POST["nome"]);
     
     $phpmail->Subject = "Contato do site Inox Fantasia";

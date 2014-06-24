@@ -38,7 +38,7 @@
 <aside>
         <p class="h2-prod2">Fabricando tanques de alta qualidade</p>
     </aside><!-- FINAL ASIDE --> 
-<?php }elseif($URL == "contato.php"){ ?>
+<?php }elseif($URL == "contato.php" or $URL == "resposta-contato.php"){ ?>
 <aside>
         <a href="#" title="Mapa de Localização" class="bt-mapa1 hidetxt">Mapa de Localização</a>
 

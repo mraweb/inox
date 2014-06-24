@@ -34,7 +34,8 @@ module.exports = function(grunt) {
 		        	'acessorios.php': 'telas/acessorios.php',
 		        	'servicos.php': 'telas/servicos.php',
 		        	'clientes.php': 'telas/clientes.php',
-		        	'contato.php': 'telas/contato.php'
+		        	'contato.php': 'telas/contato.php',
+		        	'resposta-contato.php': 'telas/resposta-contato.php'
 		      	}
 		    }
 		},

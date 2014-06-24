@@ -28,7 +28,7 @@ if($URL == "index.php"){
     echo "Serviços | Inox Fantasia";
 }elseif($URL == "clientes.php"){
     echo "Clientes | Inox Fantasia";
-}elseif($URL == "contato.php"){
+}elseif($URL == "contato.php" or $URL == "resposta-contato.php"){
     echo "Contato | Inox Fantasia";
 }
 ?>
@@ -58,7 +58,7 @@ if($URL == "index.php"){
             <li><a href="empresa.php" title="Empresa" <?php if($URL == "empresa.php"){ echo 'class="ativo"'; } ?>>Empresa</a></li>
             <li><a href="produtos.php" title="Produtos" <?php if($URL == "produtos.php" or $URL == "tanques-de-coleta.php" or $URL == "tanques-julieta.php" or $URL == "tanques-semi-reboque.php" or $URL == "tanques-bitrem.php" or $URL == "tanques-vanderleia.php" or $URL == "tanques-personalizados.php" or $URL == "acessorios.php"){ echo 'class="ativo"'; } ?>>Produtos</a></li>
             <li><a href="servicos.php" title="Serviços" <?php if($URL == "servicos.php"){ echo 'class="ativo"'; } ?>>Serviços</a></li>
-            <li><a href="contato.php" title="Contato" <?php if($URL == "contato.php"){ echo 'class="ativo"'; } ?>>Contato</a></li>
+            <li><a href="contato.php" title="Contato" <?php if($URL == "contato.php" or $URL == "resposta-contato.php"){ echo 'class="ativo"'; } ?>>Contato</a></li>
         </ul>
     </nav>
 </header><!-- FINAL HEADER -->
