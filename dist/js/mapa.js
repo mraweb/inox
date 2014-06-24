@@ -1,6 +1,6 @@
 /****** MAPS *****/
 function initialize() {
-	var myLatlng = new google.maps.LatLng(-23.705481,-46.60964);
+	var myLatlng = new google.maps.LatLng(-20.9080738,-47.5942428);
 
 	var myOptions = {
 		zoom: 16,
@@ -11,7 +11,7 @@ function initialize() {
 		var map = new google.maps.Map(document.getElementById("mapa"), myOptions);
 		
 		var infowindow = new google.maps.InfoWindow(
-			{ content: 'Rua Álvares Cabral, 1530 – Serraria<br />Diadema / SP',
+			{ content: 'Rua Coronel Joaquim Marquês, 1673 - Riachuelo',
 				size: new google.maps.Size(),
 				position: myLatlng
 			});
