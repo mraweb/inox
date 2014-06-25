@@ -20,7 +20,6 @@
         <div class="telefone">
             <ul>
                 <li><span>16</span> 3761.3908</li>
-                <li><span>16</span> 3761.8305</li>
             </ul>
 
             <a href="http://www.jm6.ppg.br/" title="JM6" rel="external" class="jm6 hidetxt">JM6</a>
@@ -28,6 +27,28 @@
     </div>
 </footer>
 <script src="js/jquery-1.11.1.min.js"></script>
+<?php if($URL == "index.php"){ ?>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+// slide banner Home
+    $(function(){
+        // Set starting slide to 1
+        var startSlide = 1;
+
+        // Initialize Slides
+        $('#slide-home').slides({
+            preload: true,
+            preloadImage: 'img/loading.gif',
+            generatePagination: true,
+            play: 5000,
+            pause: 2500,
+            hoverPause: true,
+            start: startSlide,
+            effect: 'slide'
+        });
+    });
+</script>
+<?php } ?>
 <?php if($URL == "empresa.php" or $URL == "contato.php"){ ?>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script src="js/mapa.js"></script>

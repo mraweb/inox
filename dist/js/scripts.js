@@ -9,5 +9,7 @@ $(document).ready(function(){
     $(".alinha ul li:nth-child(3n), .box-tanques ul li:nth-child(4n)").css("padding-right", "0");
 
     // colorbox
-    $(".group1, .group2").colorbox();
+    
+    $(".group1").colorbox({rel:'group1'});
+    $(".group2").colorbox({rel:'group2'});
 });

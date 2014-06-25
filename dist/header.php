@@ -34,6 +34,7 @@ if($URL == "index.php"){
 ?>
 </title>
 <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/colorbox.css">
 <!--[if ie]>
     <script type="text/javascript" src="js/html5shiv.js"></script>
 <![endif]-->

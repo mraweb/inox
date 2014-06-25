@@ -5,7 +5,7 @@
 
     <section class="cont-right pdg-thome">
         <div class="alinha">
-            <h2>A sua melhor escolha em<br />
+            <h2><span class="txt-chamada">A sua melhor escolha</span> em<br />
             <span class="txt-red">Tanques Rodoviários de Aço Inox.</span></h2>
 
             <p>Há 30 anos fabricamos tanques rodoviários em aço inox para o transporte de leite e óleo vegetal. Trabalhamos com tecnologia de ponta para assegurar prazos e competir com os melhores preços.</p>
@@ -31,7 +31,17 @@
                 <p>Fabricamos tanques sob medida atendendo às necessidades específicas.</p>
             </div>
 
-            <img src="img/tanque-de-coleta-4000L.jpg" alt="Tanque de Coleta - 4.000 L" />
+            <div id="slide-home">
+                <div class="slides_container">
+                    <div class"slides"><img src="img/tanque-de-coleta-4000L.jpg" alt="Tanque de Coleta - 4.000 L" /></div>
+
+                    <div class"slides"><img src="img/tanque-de-coleta-9000L.jpg" alt="Tanque de Coleta - 9.000 L" /></div>
+
+                    <div class"slides"><img src="img/tanque-de-coleta-15000L.jpg" alt="Tanque de Coleta - 15.000 L" /></div>
+
+                    <div class"slides"><img src="img/tanque-vanderleia-37000L.jpg" alt="Tanque Vanderleia - 37.000 L" /></div>
+                </div>
+            </div>
         </section>
 
         <div class="bnds">
