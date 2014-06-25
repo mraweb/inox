@@ -408,7 +408,7 @@ aside .h2-prod2{
 	font-size: 20px;
 	color: #c4161c;
 	font-family: 'otto', sans-serif;
-	background: url(../img/icontel.jpg) 30px 5px no-repeat;
+	background: url(../img/icontel.jpg) 30px 0 no-repeat;
 }
 .tel-aside p{ line-height: 22px;}
 .tel-aside span{ font-size: 16px;}

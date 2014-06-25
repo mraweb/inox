@@ -44,8 +44,7 @@
 
         <div class="tel-aside">
             <p>
-                <span>16</span> 3761.3908<br />
-                <span>16</span> 3761.8305
+                <span>16</span> 3761.3908
             </p>
         </div>
 
