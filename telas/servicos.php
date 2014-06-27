@@ -13,8 +13,6 @@
         <p>Reformamos tanques com alto tempo de uso, onde avarias podem ocorrer, como tombamento em estradas ou qualquer outra eventualidade que diminua a qualidade de estocagem e até mesmo a segurança do motorista.</p>
 
         <p>Contamos com profissionais que avaliam o estado atual do tanque, analisam todas as avarias e posteriormente calculam o orçamento de reforma. <a href="contato.php" title="Entre em contato e saiba mais sobre reformas." class="link"><strong>Entre em contato e saiba mais sobre reformas.</strong></a></p>
-
-        <img src="http://placehold.it/588x250" alt="Imagem" />
     
         <section class="feature">
             <div>
