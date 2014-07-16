@@ -8,7 +8,7 @@
 
         <h1 class="txt-red">Contato</h1>
 
-        <p>Preencha o formulário abaixo para solicitar um orçamento ou tirar qualquer dúvida sobre nossos tanques rodoviários. Se preferir, entre em contato pelo e-mail <a href="mailto:inoxfantasia@netsite.com.br" title="E-mail" class="link">inoxfantasia@netsite.com.br</a></p>
+        <p>Preencha o formulário abaixo para solicitar um orçamento ou tirar qualquer dúvida sobre nossos tanques rodoviários. Se preferir, entre em contato pelo e-mail <a href="mailto:contato@inoxfantasia.com.br" title="E-mail" class="link">contato@inoxfantasia.com.br</a></p>
 
         <form action="resposta-contato.php" method="post" id="formID">
             <input type="hidden" name="valida" id="valida" />
